@@ -8,8 +8,8 @@ At this moment, the team has no plans to purchase external databases or spend mo
 conducting surveys. This is because brute force computation of all possibilities to find the absolute optimum would be too computationally expensive.
 
 Below are two datasets that we shall be considered for research:
-Grand electors by State.  (Links to an external site.)
-Population by State. (Links to an external site.)
+* Grand electors by State.  [Link](https://drive.google.com/file/d/1AuPlNXKjmEdRTLGqKbP-OP1XZ5UQPIPw/view)
+* Population by State. [Link](https://drive.google.com/file/d/1VKt_hF2pRqPxcNb1DKotkVXWNd2HX_KL/view)
 
 ##  2.1 Exploring data
 The Population datasets we shall be using contains two columns, State and Population respectively with a total record of 57 states/ territories in the United State of America. The Grand Electors by state dataset contains two columns, State and GrandElectors with a record of 52 states/ territories in the United State of America.
