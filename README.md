@@ -21,13 +21,13 @@ We have noted from the datasets that states are not capitalized the same way in 
 We also have no missing records on the data. 
 
 # 3.0 Data Preparation
-We shall be joining the two tables using the State field as the key and making a new table by the name “Election”. 
-The team wants to change the name of the "District of Columbia" state to its short version "DC", we shall be updating the records accordingly.
-We shall create a new column by the name “Ratio” to  compute the ratio between the number of grand electors and the population.
-We shall order the states by decreasing ratio of Grand Electors per capita. This will make our priority list.
-We shall compute the running total of Grand Electors in that sorted list.
-We shall also compute the half of the total of Grand Electors overall (in the whole country). This will enable us to determine the threshold we need to reach for winning the presidential election.
-We shall filter our sorted list of states in order to keep only the (top) ones enabling us to reach the computed threshold. (the other states will be ignored).
+* We joined the two tables using the State field as the key and making a new table by the name “Election”. 
+* The team wanted to change the name of the "District of Columbia" state to its short version "DC", we updated the records accordingly.
+* We created a new column by the name “Ratio” to  compute the ratio between the number of grand electors and the population.
+* We ordered the states by decreasing ratio of Grand Electors per capita. This made our priority list.
+* We computed the running total of Grand Electors in that sorted list.
+* We salso computed the half of the total of Grand Electors overall (in the whole country). This made us to determine the threshold we need to reach for winning the presidential election.
+* We filtered our sorted list of states in order to keep only the (top) ones enabling us to reach the computed threshold. (the other states will were ignored).
 
 # 4.0 Modeling
 We did a very simple analysis model to sort the columns and calculate the ratio between the grand electors and population. From our sorted data we created a new column to show the cumulative electors’ vote. We can easily see the 11 states with highest chances to get to the threshold electors votes i.e 270
